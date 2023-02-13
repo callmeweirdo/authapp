@@ -1,0 +1,386 @@
+CRITICAL - 2023-02-11 12:22:27 --> Call to undefined method CodeIgniter\View\View::extends()
+in APPPATH\Views\pages\login.php on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 4 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 12:24:00 --> Undefined variable $thi
+in APPPATH\Views\pages\login.php on line 6.
+ 1 APPPATH\Views\pages\login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $thi', 'APPPATH\\Views\\pages\\login.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 5 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 12:24:13 --> Undefined property: CodeIgniter\View\View::$endSection
+in APPPATH\Views\pages\login.php on line 6.
+ 1 APPPATH\Views\pages\login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$endSection', 'APPPATH\\Views\\pages\\login.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 5 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 12:24:28 --> Invalid file: "../layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('../layout.php', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 4 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 12:25:00 --> Invalid file: "../layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('../layout.php', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 4 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 12:25:01 --> Invalid file: "../layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('../layout.php', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 4 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 12:25:11 --> Invalid file: "../../layout.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../../layout.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('../../layout.php', [], true)
+ 3 SYSTEMPATH\Common.php(1177): CodeIgniter\View\View->render('pages/login.php', [], true)
+ 4 APPPATH\Controllers\UserController.php(7): view('pages/login.php')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:38:45 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 27.
+ 1 APPPATH\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:40:07 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 27.
+ 1 APPPATH\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:41:38 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 27.
+ 1 APPPATH\Controllers\UserController.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:47:54 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 25.
+ 1 APPPATH\Controllers\UserController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:48:01 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 28.
+ 1 APPPATH\Controllers\UserController.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:52:12 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 30.
+ 1 APPPATH\Controllers\UserController.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:52:56 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 17:52:57 --> Undefined variable $rules
+in APPPATH\Controllers\UserController.php on line 26.
+ 1 APPPATH\Controllers\UserController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'APPPATH\\Controllers\\UserController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-11 22:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 22:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 22:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 22:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 22:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 22:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-11 22:45:09 --> Call to undefined method App\Controllers\UserController::getPost()
+in APPPATH\Controllers\UserController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 22:46:23 --> "beforeInsert" is not a valid Model Event callback.
+in SYSTEMPATH\BaseModel.php on line 1559.
+ 1 SYSTEMPATH\BaseModel.php(1559): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('beforeInsert')
+ 2 SYSTEMPATH\BaseModel.php(779): CodeIgniter\BaseModel->trigger('beforeInsert', [...])
+ 3 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 4 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 5 APPPATH\Controllers\UserController.php(42): CodeIgniter\BaseModel->save([...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-11 22:47:16 --> Trying to access array offset on value of type null
+in SYSTEMPATH\BaseModel.php on line 782.
+ 1 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'SYSTEMPATH\\BaseModel.php', 782)
+ 2 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\UserController.php(42): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-11 22:47:52 --> mysqli_sql_exception: Column 'firstname' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(42): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 22:47:52 --> Column 'firstname' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(42): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-11 22:50:34 --> mysqli_sql_exception: Column 'firstname' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 22:50:34 --> Column 'firstname' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-11 22:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-11 22:51:27 --> mysqli_sql_exception: Column 'firstname' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 22:51:27 --> Column 'firstname' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-11 22:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 22:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-02-11 22:52:27 --> mysqli_sql_exception: Column 'email' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 22:52:27 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-11 22:54:00 --> mysqli_sql_exception: Column 'email' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 22:54:00 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-11 23:01:38 --> mysqli_sql_exception: Column 'email' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 23:01:38 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-02-11 23:01:54 --> mysqli_sql_exception: Column 'email' cannot be null in C:\laragon\www\authapp\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\laragon\www\authapp\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\laragon\www\authapp\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\laragon\www\authapp\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\laragon\www\authapp\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\laragon\www\authapp\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\authapp\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\authapp\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\laragon\www\authapp\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\laragon\www\authapp\app\Controllers\UserController.php(41): CodeIgniter\BaseModel->save(Array)
+#9 C:\laragon\www\authapp\system\CodeIgniter.php(934): App\Controllers\UserController->register()
+#10 C:\laragon\www\authapp\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\laragon\www\authapp\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\authapp\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-02-11 23:01:54 --> Column 'email' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `users` (`firstname`, `email`, `password`) VALUES (:firstname:, :email:, :password:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\UserController.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-11 23:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-11 23:10:26 --> Call to a member function setFlashdata() on null
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-11 23:10:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-02-11 23:10:49 --> Call to undefined method CodeIgniter\Session\Session::session()
+in APPPATH\Controllers\UserController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\UserController->register()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-02-11 23:11:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:52:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:54:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-02-11 23:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
